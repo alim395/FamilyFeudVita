@@ -1,2 +1,2 @@
 # FamilyFeud
- LoJam Entry 2022
+ Vita port of FamilyFued Game for Lojam 2022
