@@ -146,6 +146,7 @@ margin_bottom = 334.0
 theme = ExtResource( 9 )
 
 [node name="Label" type="Label" parent="VBoxContainer"]
+visible = false
 margin_right = 256.0
 margin_bottom = 34.0
 text = "ENTER YOUR NAME:"
@@ -153,12 +154,12 @@ align = 1
 valign = 1
 
 [node name="Container" type="Container" parent="VBoxContainer"]
-margin_top = 38.0
 margin_right = 256.0
-margin_bottom = 68.0
+margin_bottom = 30.0
 rect_min_size = Vector2( 1.195, 30 )
 
 [node name="TextEdit" type="TextEdit" parent="VBoxContainer/Container"]
+visible = false
 margin_top = -4.0
 margin_right = 256.0
 margin_bottom = -4.0
@@ -166,9 +167,10 @@ rect_min_size = Vector2( 100, 30 )
 focus_neighbour_left = NodePath("../../../PanelContainer/MarginContainer/VBoxContainer/CenterContainer/VBoxContainer/Restart")
 
 [node name="Button" type="Button" parent="VBoxContainer"]
-margin_top = 72.0
+visible = false
+margin_top = 34.0
 margin_right = 256.0
-margin_bottom = 128.0
+margin_bottom = 90.0
 text = "Save Score!"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]

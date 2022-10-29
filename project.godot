@@ -12,7 +12,9 @@ config_version=4
 
 config/name="FamilyFeud"
 run/main_scene="res://Main_Menu.tscn"
-config/icon="res://icon.png"
+config/icon="res://icon-export.png"
+config/macos_native_icon="res://icon.icns"
+config/windows_native_icon="res://icon.ico"
 
 [autoload]
 
