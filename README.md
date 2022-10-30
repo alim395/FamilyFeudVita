@@ -1,4 +1,4 @@
-# Family Fisticuffs Vita Edition
+# Family Fisticuffs - Vita Edition
  LoJam Entry 2022
  
  Install the latest .VPK on your Vita, and play :)
